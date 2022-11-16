@@ -1,22 +1,18 @@
-# rock-paper-scissors
-## Basic RPS simulator
-### *Tools used*
-- Language: Java
-- Compiler: VSCode
-- Version: 1.0
-## Pseudocode
-1. Players choose rock, paper, or scissors
-   1. Represent choices with a `char`
-      1. R - rock
-      2. P - paper
-      3. S - scissor
-   2. Store choices
-      1. Prompt `Scanner` object `nextChar ()`
-      2. `char playerOneChoice`
-      3. `char playerTwoChoice`
-2. Count down and reveal choices on "shoot"
-   1. `Thread.sleep()` to artificially wait
-3. Compare choices of players
-   1. Rock beats scissors
-   2. Scissors beats paper
-   3. Paper beats rock
+## Getting Started
+
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+
+## Folder Structure
+
+The workspace contains two folders by default, where:
+
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
+
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+## Dependency Management
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
